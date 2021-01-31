@@ -1,6 +1,11 @@
 <template>
   <div>
     AddTodo works!
+    <router-link
+      to="/"
+    >
+      back to home
+    </router-link>
   </div>
 </template>
 
