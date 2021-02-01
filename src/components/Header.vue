@@ -1,7 +1,13 @@
 <template>
-  <div>
-    Header works!
-  </div>
+  <header>
+    <h1>
+      <router-link
+        to="/home"
+      >
+        todolist
+      </router-link>
+    </h1>
+  </header>
 </template>
 
 <script>

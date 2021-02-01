@@ -1,12 +1,16 @@
 <template>
-  <div>
-    AddTodo works!
+  <main>
+    <h2>new to-do</h2>
+    <p>new to-do text
+      <button>add to-do</button>
+    </p>
+
     <router-link
       to="/"
     >
       back to home
     </router-link>
-  </div>
+  </main>
 </template>
 
 <script>

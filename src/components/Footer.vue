@@ -1,7 +1,5 @@
 <template>
-  <div>
-    Footer works!
-  </div>
+  <p>2021 © feito com s2 - todolist</p>
 </template>
 
 <script>
