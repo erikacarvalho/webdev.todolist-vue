@@ -24,18 +24,21 @@
 </template>
 
 <script>
-const todolist = [
-  {id: 1, isDone: true, name: "do the dishes"},
-  {id: 2, isDone: false, name: "buy a new charger for smartwatch"},
-  {id: 3, isDone: false, name: "review pull request"},
-  {id: 4, isDone: false, name: "get things done"}
-]
 
 export default {
   name: "TodoList",
+  props: {
+    fullList: {
+      type: Array,
+      required: true,
+      default: (() => {
+        return []
+      })
+    }
+  },
   data() {
     return {
-      todos: todolist
+      todos: this.props.fullList
     }
   }
 }
